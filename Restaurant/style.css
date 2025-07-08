@@ -1,0 +1,227 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+/* Header section */
+ /* adjusting Navbar and logo*/
+.Logo-Tanjra{
+  width: 190px;
+  height: 50px;
+}
+
+#navbar-container {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+
+/* Hero section */
+ /* adding video on loop for the background
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 80vh; 
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+*/
+
+.Hero-section {
+  position: relative;
+  width: 100%;
+  height: 80vh; 
+  overflow: hidden;
+  background-image: url('assets/waves.jpg');
+}
+
+
+
+/* adding overlay text and plate picture on top on the video*/
+.content-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.text-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.plates{
+  width: 240px;
+  height: 350px;
+}
+.header1{
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.header2{
+  font-weight: 400;
+  font-size: 30px;
+}
+
+/* Menu section */
+
+.Menu-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.menu-items {
+  padding: 0 20px 50px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+.Menu-header {
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #0f0e47;
+}
+
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* About us section */
+.About-section {
+  background-color: #d7dee4;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.header4 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #0f0e47;
+  text-align: left;
+}
+
+.paragraphe {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  color:#0f0e47;
+  font-weight: 300;
+  text-align: left;
+}
+ 
+
+/* Media query to adjust the display of the content on smaller screens */
+@media (max-width: 1100px) {
+  .video-background video {
+    height: 40vh;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .header1{
+    font-weight: 400;
+  font-size: 40px;
+  }
+
+  .header2{
+  font-weight: 200;
+  font-size: 30x;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+  .about-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+
+  .header4 {
+    font-size: 28px;
+  }
+
+  .paragraphe {
+    font-size: 16px;
+    text-align: center;
+  }
+
+
+
+}
