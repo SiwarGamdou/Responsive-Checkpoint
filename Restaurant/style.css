@@ -143,6 +143,15 @@ body {
   font-weight: 300;
   text-align: left;
 }
+
+/* Contact section */
+.container-contact {
+  background-color: #f8f9fa;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
  
 
 /* Media query to adjust the display of the content on smaller screens */
