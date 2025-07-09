@@ -22,27 +22,6 @@ body {
 
 
 /* Hero section */
- /* adding video on loop for the background
-.video-background {
-  position: relative;
-  width: 100%;
-  height: 80vh; 
-  overflow: hidden;
-}
-
-.video-background video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -1;
-  transform: translate(-50%, -50%);
-  object-fit: cover;
-}
-*/
 
 .Hero-section {
   position: relative;
@@ -52,9 +31,7 @@ body {
   background-image: url('assets/waves.jpg');
 }
 
-
-
-/* adding overlay text and plate picture on top on the video*/
+/* adding overlay text and plate picture on top on the bg*/
 .content-overlay {
   position: absolute;
   width: 100%;
